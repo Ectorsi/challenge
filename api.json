@@ -1,0 +1,74 @@
+{
+    "firstEndpoint" : [
+        {
+            "id": 1,
+            "timeout": 2,
+            "priority": 3,
+            "referenceId": 3,
+            "dependences": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "id": 2,
+            "timeout": 2,
+            "priority": 1,
+            "referenceId": 4,
+            "dependences": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "id": 3,
+            "timeout": 2,
+            "priority": 2,
+            "referenceId": 1,
+            "dependences": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        {
+            "id": 4,
+            "timeout": 2,
+            "priority": 4,
+            "referenceId": 2,
+            "dependences": [
+                "a",
+                "b",
+                "c"
+            ]
+        }
+    ],
+    "secondEndpoint": [
+        {
+            "id": 1,
+            "label": "#Div 1",
+            "color": "#fff",
+            "background": "yellow"
+        },
+        {
+            "id": 2,
+            "label": "#Div 2",
+            "color": "yellow",
+            "background": "red"
+        },
+        {
+            "id": 3,
+            "label": "#Div 3",
+            "color": "red",
+            "background": "blue"
+        },
+        {
+            "id": 4,
+            "label": "#Div 4",
+            "color": "black",
+            "background": "green"
+        }
+    ]
+}
